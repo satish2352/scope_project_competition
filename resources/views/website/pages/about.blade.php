@@ -18,7 +18,7 @@
     <section id="about-sec">
         <div class="container">
             <div class="row">
-                <h1 class="">ABOUT LAGHU UDYOG Bharti NASHIK</h1>
+                <h1 class="">ABOUT Us</h1>
                 {{-- <hr> --}}
                 {{-- <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua.</h5> --}}
@@ -66,9 +66,52 @@
                             </div>
                         </a>
                     </li>
+                 
                     <li>
                         <a href="{{ asset('website/assets/images/Awards/Award2.png') }}" class="swipebox" title="">
                             <div class="image"><img src="{{ asset('website/assets/images/Awards/Award2.png') }}">
+                                <div class="overlay"><i class="fa fa-search-plus"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ asset('website/assets/images/Awards/Award3.png') }}" class="swipebox" title="">
+                            <div class="image"><img src="{{ asset('website/assets/images/Awards/Award3.png') }}">
+                                <div class="overlay"><i class="fa fa-search-plus"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ asset('website/assets/images/Awards/Award4.png') }}" class="swipebox" title="">
+                            <div class="image"><img src="{{ asset('website/assets/images/Awards/Award4.png') }}">
+                                <div class="overlay"><i class="fa fa-search-plus"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ asset('website/assets/images/Awards/Award5.png') }}" class="swipebox" title="">
+                            <div class="image"><img src="{{ asset('website/assets/images/Awards/Award5.png') }}">
+                                <div class="overlay"><i class="fa fa-search-plus"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ asset('website/assets/images/Awards/Award6.png') }}" class="swipebox" title="">
+                            <div class="image"><img src="{{ asset('website/assets/images/Awards/Award6.png') }}">
+                                <div class="overlay"><i class="fa fa-search-plus"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ asset('website/assets/images/Awards/Award7.png') }}" class="swipebox" title="">
+                            <div class="image"><img src="{{ asset('website/assets/images/Awards/Award7.png') }}">
+                                <div class="overlay"><i class="fa fa-search-plus"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ asset('website/assets/images/Awards/Award8.png') }}" class="swipebox" title="">
+                            <div class="image"><img src="{{ asset('website/assets/images/Awards/Award8.png') }}">
                                 <div class="overlay"><i class="fa fa-search-plus"></i></div>
                             </div>
                         </a>

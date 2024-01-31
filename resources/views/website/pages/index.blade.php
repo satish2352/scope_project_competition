@@ -46,7 +46,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 54%;
+    height: 66%;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
     display: flex;
     justify-content: center;
@@ -179,7 +179,7 @@
                             </div> --}}
                             <div class="media-text">
                                 {{-- <h5>BECOME A VOLUNTEER</h5> --}}
-                                <p>Sumago Infotech aspire to be the global sourcing choice of the world market and revolutionizes the way
+                                <p style="text-align: justify">Sumago Infotech aspire to be the global sourcing choice of the world market and revolutionizes the way
                                     service processes function. To reach out to the common people across the globe and making Information
                                     Technology a tool for the “MASS” along with the tool for the “CLASS”. Creating innovative IT solutions
                                     and provide IT-enabled services to delight customers worldwide and build Relationships based on Trust,

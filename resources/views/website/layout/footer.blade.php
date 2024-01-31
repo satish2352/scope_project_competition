@@ -69,7 +69,7 @@
 
                         </div><!-- /.footer-section-body -->
                         <div class="footer-section-body" style="padding-top: 15px"><b><a to="tel:91 8408084888" style="cursor: pointer;"><i class="fa fa-mobile-phone" style="color:#fff;"></i> </b>
-                            91 8408084888 </a><br>
+                            +91 8408084888 </a><br>
                         </div><!-- /.footer-section-body -->
                       
                     </div><!-- /.footer-section -->
