@@ -1,0 +1,54 @@
+INSERT INTO `branch_lists`(`education_type`, `branch_name`) 
+
+VALUES ("2","Artificial Intelligence(AI)and Data Science"),
+VALUES ("2","Artificial Intelligence(AI)and Machine Learning"),
+VALUES ("2","Automation and Robotics"),
+VALUES ("2","Automobile"),
+VALUES ("2","Checimal"),
+VALUES ("2","Civil"),
+VALUES ("2","Civil and Environmental"),
+VALUES ("2","Computer"),
+VALUES ("2","Computer Science and Design"),
+VALUES ("2","Computer Technology"),
+VALUES ("2","Dres Designing and Garnment Manufacturing"),
+VALUES ("2","Electrical"),
+VALUES ("2","Electronic and Telecommunication"),
+VALUES ("2","Information Technology"),
+VALUES ("2","Instrumentation and Control Interior Design"),
+VALUES ("2","Mechanical"),
+VALUES ("2","Mechatronics"),
+VALUES ("2","Polymer Technology"),
+VALUES ("2","Robotics and Automation"),
+VALUES ("2","Other");
+
+
+
+
+VALUES ("3","Artificial Intelligence(AI)and Data Science"),
+VALUES ("3","Artificial Intelligence(AI)and Machine Learning"),
+VALUES ("3","Automation and Robotics"),
+VALUES ("3","Automobile"),
+VALUES ("3","Checimal"),
+VALUES ("3","Civil"),
+VALUES ("3","Civil and Environmental"),
+VALUES ("3","Computer"),
+VALUES ("3","Computer Science and Design"),
+VALUES ("3","Computer Technology"),
+VALUES ("3","Dres Designing and Garnment Manufacturing"),
+VALUES ("3","Electrical"),
+VALUES ("3","Electronic and Telecommunication"),
+VALUES ("3","Information Technology"),
+VALUES ("3","Instrumentation and Control Interior Design"),
+VALUES ("3","Mechanical"),
+VALUES ("3","Mechatronics"),
+VALUES ("3","Polymer Technology"),
+VALUES ("3","Robotics and Automation"),
+VALUES ("3","Other"),
+
+
+ 
+
+
+
+
+
