@@ -19,7 +19,7 @@
         <div class="content-wrapper mt-6">
             <div class="page-header">
                 <h3 class="page-title">
-                    {{-- <b>Event organized by Laghu Udyog Bharti & Government Polytechnic,
+                    {{-- <b>Event organized by Sumago Infotech Pvt. Ltd.  & Government Polytechnic,
                         Nashik (DTE)</b> --}}
                 </h3>
                 <nav aria-label="breadcrumb">
@@ -171,7 +171,7 @@
                                             <p class="mt-3">
                                                 <label for="bankdetails" class="bank_details">
                                                     <b>Bank details:</b><br />
-                                                    A/c Name: Laghu Udyog Bharti <br />
+                                                    A/c Name: Sumago Infotech Pvt. Ltd.  <br />
                                                     Bank: TJSB Bank <br />
                                                     Branch: Gangapur Rd. <br />
                                                     A/c No.: 021110100000661 <br />

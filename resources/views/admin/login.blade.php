@@ -140,7 +140,7 @@
                                     style="margin-top: 40px;">
                                     ©
                                     {{ date('Y') }}.
-                                    All rights reserved with Laghu Udyog Bharti,Nashik.</p>
+                                    All rights reserved with Sumago Infotech Pvt. Ltd. ,Nashik.</p>
                             </div>
                             <!--  Login Form -->
                         </div>
