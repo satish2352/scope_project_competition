@@ -2,8 +2,8 @@
 @section('content')
     <style>
         .marqueeMain {
-            background-color: #d7d6d6;
-            color: #000000 !important;
+            background-color: #ed6d70;
+            color: #fff !important;
             font-size: 20px;
             letter-spacing: 0px;
             font-weight: 600;
