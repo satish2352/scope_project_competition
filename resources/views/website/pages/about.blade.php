@@ -18,7 +18,7 @@
     <section id="about-sec">
         <div class="container">
             <div class="row">
-                <h1 class="">ABOUT Us</h1>
+                <h1 class="">ABOUT US</h1>
                 {{-- <hr> --}}
                 {{-- <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua.</h5> --}}
@@ -46,7 +46,7 @@
               <p>We aspire to be the global sourcing choice of the 
                 world market and revolutionizes the way service processes function. To reach out to the common people across the globe and making Information Technology a tool for the “MASS” along with the tool for the “CLASS”. Creating innovative IT solutions and provide IT-enabled services to delight customers worldwide and build Relationships based on Trust, Values and Professionalism.</p>
 
-                <h1 class="">OUR MISION</h1><br>
+                <h1 class="">OUR MISSION</h1><br>
                 <P>At Sumago Infotech, We “Strive with Technology” to provide the most effective and affordable service that fulfills our customer’s needs and budget. We provide customized websites and software solutions that suit customer’s company objectives. We always keep involving our customers in an entire process starting from design through deployment, so that your ideas can be incorporated into our work.</P>
             </div>
         </div>

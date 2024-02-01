@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="footer-section">
-                        <h4 class="footer-section-title">About LUB</h4><!-- /.footer-section-title -->
+                        <h4 class="footer-section-title">About Us</h4><!-- /.footer-section-title -->
 
                         <div class="footer-section-body">
                             <p>Our mission is to develop a skilled IT workforce in India, empowering individuals with
