@@ -87,7 +87,7 @@
                                 <button type="button" class="btn float-right verify_msg">
                                     @if ($user_data['is_project_uploaded'] == 1 && $user_data['is_payment_done'] == 1)
                                         <div class="verify_msg">
-                                            Your Payment is verified
+                                            Your Project Presentation Sucsessfully Received..!!
                                         </div>
                                     @endif
                                 </button>
