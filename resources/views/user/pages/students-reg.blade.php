@@ -83,11 +83,11 @@
                                                 class="red-text">*</span>
                                             <select class="form-control" id="academic_year" name="academic_year">
                                                 <option value="">Select</option>
-                                                <option value="1"
+                                                <option value="1" disabled
                                                     @if (old('academic_year') == '1') {{ 'selected' }} @endif>
                                                     First Year
                                                 </option>
-                                                <option value="2"
+                                                <option value="2" disabled
                                                     @if (old('academic_year') == '2') {{ 'selected' }} @endif>
                                                     Second Year
                                                 </option>
@@ -95,11 +95,11 @@
                                                     @if (old('academic_year') == '3') {{ 'selected' }} @endif>
                                                     Third Year
                                                 </option>
-                                                <option value="4"
+                                                <option value="4" disabled
                                                     @if (old('academic_year') == '4') {{ 'selected' }} @endif>
                                                     Fourth Year
                                                 </option>
-                                                <option value="5"
+                                                <option value="5" disabled
                                                     @if (old('academic_year') == '5') {{ 'selected' }} @endif>
                                                     Other
                                                 </option>
@@ -381,7 +381,7 @@
                                         <div class="form-group">
                                             <label for="payment_proof">Project Abstract</label>&nbsp<span
                                                 class="red-text"><br>Upload Project Abstract in
-                                                jpeg,png,jpg format with size 1 MB*</span><br>
+                                                jpeg,png,jpg format with size 1 MB*</span><br><br>
                                             <input type="file" name="payment_proof" id="payment_proof"
                                                 accept="image/*" value="{{ old('payment_proof') }}"><br>
                                             @if ($errors->has('payment_proof'))
@@ -398,7 +398,7 @@
                                             <span class="red-text"><br>
                                                 Upload project presentation only pdf
                                                 format with 5 MB*</span>
-                                            <br>
+                                            <br><br>
                                             <input type="file" name="project_presentation" id="project_presentation"
                                                 accept=".pdf, .ppt, .pptx, .doc, .docx"
                                                 value="{{ old('project_presentation') }}"><br>

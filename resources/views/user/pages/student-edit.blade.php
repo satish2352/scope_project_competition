@@ -59,7 +59,7 @@
                             <button type="button" class="btn btn-primary mb-3 verify_msg">
 
                                 @if ($user_data['is_project_uploaded'] == 1 && $user_data['is_payment_done'] == 0)
-                                    Data submitted successfully but not verified by Admin
+                                    Data submitted successfully but not verified by admin
                                 @endif
                             </button>
 
@@ -416,7 +416,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <label for="payment_proof">Upload Payment proof in
+                                            <label for="payment_proof">Upload Project Abstract in
                                                 jpeg,png,jpg format with size 1 Mb*</label>&nbsp<span
                                                 class="red-text">*</span><br>
                                             <input type="file" name="payment_proof" id="payment_proof"
