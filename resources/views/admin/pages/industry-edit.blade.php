@@ -121,7 +121,7 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="form-group">
                                         @if ($user_data['registration_type'] == 0)  
-                                        <label for="payment_type"><b>Registration fees Rs.1000/- paid by</b>
+                                        <label for="payment_type"><b>Registration fees Rs.0/-</b>
                                         </label>&nbsp<span class="red-text">*</span>
                                         @else
                                         <label for="payment_type"><b>Registration fees Rs.2000/- paid by</b>

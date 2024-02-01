@@ -59,7 +59,7 @@
                             <button type="button" class="btn btn-primary mb-3 verify_msg">
 
                                 @if ($user_data['is_project_uploaded'] == 1 && $user_data['is_payment_done'] == 0)
-                                    Data submitted successfully but payment is not verified by Admin
+                                    Data submitted successfully but not verified by Admin
                                 @endif
                             </button>
 
@@ -146,10 +146,10 @@
                                             <select class="form-control" id="education_type" name="education_type"
                                                 onchange="education_type(this.value)" disabled>
                                                 <option value="">Select</option>
-                                                <option value="1"
+                                                <option value="1" disabled
                                                     @if ($project_data['education_type'] == '1') {{ 'selected' }} @endif>ITI
                                                 </option>
-                                                <option value="2"
+                                                <option value="2" disabled
                                                     @if ($project_data['education_type'] == '2') {{ 'selected' }} @endif>Diploma
                                                 </option>
                                                 <option value="3"
@@ -347,9 +347,12 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <label for="payment_type"><b>Registration fees Rs.1000/- paid by</b>
+                                            <label for="payment_type"><b>Registration fees Rs.0/-</b>
                                             </label>&nbsp<span class="red-text">*</span>
-                                            <select class="form-control" id="payment_type" name="payment_type"
+                                            <input type="text" disabled class="other_branch_details form-control"
+                                            id="payment_type" name="payment_type" placeholder="NEFT"
+                                            value="{{ old('payment_type') }}">
+                                            {{-- <select class="form-control" id="payment_type" name="payment_type"
                                                 onchange="payment_type(this.value)">
                                                 <option value="">Select Payment Mode</option>
                                                 <option value="neft"
@@ -359,7 +362,7 @@
                                                     @if ($project_data['payment_type'] == 'qr_code') {{ 'selected' }} @endif>QR Code
                                                 </option>
 
-                                            </select>
+                                            </select> --}}
                                             @if ($errors->has('payment_type'))
                                                 <span class="red-text"><?php echo $errors->first('payment_type', ':message'); ?></span>
                                             @endif
@@ -373,16 +376,17 @@
                                         <div class="form-group">
                                             <label for="transaction_details">Payment confirmation - UTR
                                                 Code</label>&nbsp<span class="red-text">*</span>
-                                            <input type="text" class="transaction_details form-control"
-                                                id="transaction_details" name="transaction_details"
-                                                value="{{ $project_data['transaction_details'] }}">
+                                                <input type="text" disabled class="transaction_details form-control"
+                                                id="transaction_details" name="transaction_details" placeholder="0000000000000"
+                                                {{-- value="{{ $project_data['transaction_details'] }}" --}}
+                                                >
                                             @if ($errors->has('transaction_details'))
                                                 <span class="red-text"><?php echo $errors->first('transaction_details', ':message'); ?></span>
                                             @endif
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
+                                {{-- <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
                                             <p class="mt-3">
@@ -407,7 +411,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">

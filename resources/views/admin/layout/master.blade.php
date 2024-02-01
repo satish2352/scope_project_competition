@@ -93,9 +93,9 @@
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row default-layout-navbar">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                 <a class="navbar-brand brand-logo" href="#"><img
-                        src="{{ asset('website/assets/images/logo.jpg') }}" alt="logo" /></a>
+                    src="{{ asset('website/assets/images/logo.jpeg') }}" style="padding: 10px" alt="logo" /></a>
                 <a class="navbar-brand brand-logo-mini" href="#"><img
-                        src="{{ asset('website/assets/images/logo.jpg') }}" alt="logo" /></a>
+                    src="{{ asset('website/assets/images/logo.jpeg') }}" style="padding: 10px" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch pr-0">
                 <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -110,7 +110,8 @@
                 <ul class="navbar-nav navbar-nav-right">
                     <li class="nav-item nav-profile dropdown mr-0">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
-                            <img class="img-size" src="{{ asset('website/assets/images/logo.jpg') }}" />
+                            {{-- <img class="img-size" src="{{ asset('website/assets/images/logo.jpg') }}" /> --}}
+                            <i class="fas fa-user menu-icon"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                             aria-labelledby="profileDropdown">
