@@ -48,7 +48,7 @@
                         <div class="auth-form-transparent text-left p-3">
                             <!--  Brand Logo -->
                             <div class="brand-logo d-flex justify-content-center">
-                                <img src="{{ asset('website/assets/images/logo.jpg') }}" alt="logo"
+                                <img src="{{ asset('website/assets/images/logo.jpeg') }}" alt="logo"
                                     style="width: 150px">
                             </div>
                             <!--  Login Form -->
@@ -140,7 +140,7 @@
                                     style="margin-top: 40px;">
                                     ©
                                     {{ date('Y') }}.
-                                    All rights reserved with Laghu Udyog Bharti,Nashik.</p>
+                                    All rights reserved with Sumago Infotech Pvt. Ltd. Nashik.</p>
                             </div>
                             <!--  Login Form -->
                         </div>

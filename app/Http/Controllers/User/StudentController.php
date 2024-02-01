@@ -60,8 +60,8 @@ class StudentController extends Controller
             'academic_year' => 'required',
             'name_of_institute' => 'required',
             'branch_details' => 'required',
-            'payment_type' => 'required',
-            'transaction_details' => 'required|max:255',
+            // 'payment_type' => 'required',
+            // 'transaction_details' => 'required|max:255',
             'payment_proof' => 'required|image|mimes:jpeg,png,jpg,JPEG,PNG,JPG|max:1024|min:1',
             // 'project_presentation' => 'required|mimes:PDF,pdf|max:5120|min:1',
              'project_presentation' => 'required|file|mimes:PDF,pdf|max:5120|min:1',
@@ -80,8 +80,8 @@ class StudentController extends Controller
             // 'name_of_institute.max' => 'Please select institute name max 255 charcter.',
             'branch_details.required' => 'Please select branch.',
 
-            'payment_type.required' => 'Please select payment type.',
-            'transaction_details.required' => 'Please enter confirmation code/id.',
+            // 'payment_type.required' => 'Please select payment type.',
+            // 'transaction_details.required' => 'Please enter confirmation code/id.',
 
             'payment_proof.required' => 'Please upload payment proof.',
             'payment_proof.image' => 'The image must be a valid image file.',
@@ -180,8 +180,12 @@ class StudentController extends Controller
                         'branch_details' => $request->branch_details,
                         'other_branch_details' => isset($request->other_branch_details) ? $request->other_branch_details : 'null',
 
-                        'payment_type' => $request->payment_type,
-                        'transaction_details' => $request->transaction_details,
+                        // 'payment_type' => $request->payment_type,
+                        // 'transaction_details' => $request->transaction_details,
+                        // 'payment_type' => isset($request->payment_type) ? $request->payment_type : 'null',
+                        // 'transaction_details' => isset($request->transaction_details) ? $request->transaction_details : 'null',
+                        'payment_type' => $request->input('payment_type') ?? 'null',
+                        'transaction_details' => $request->input('transaction_details') ?? 'null',
                         'project_code' => $projectCode,
 
 
@@ -528,15 +532,15 @@ class StudentController extends Controller
         // dd($request->hasFile('payment_proof'));
         $rules = [
            
-            'payment_type' => 'required',
-            'transaction_details' => 'required|max:255',
+            // 'payment_type' => 'required',
+            // 'transaction_details' => 'required|max:255',
             
         ];
 
         $messages = [
          
-            'payment_type.required' => 'Please select payment type.',
-            'transaction_details.required' => 'Please enter confirmation code/id.',
+            // 'payment_type.required' => 'Please select payment type.',
+            // 'transaction_details.required' => 'Please enter confirmation code/id.',
         ];
 
         if ($request->hasFile('payment_proof')) {
@@ -562,8 +566,10 @@ class StudentController extends Controller
             }
     
             $project_data = ProjectDetails::where('user_id', $request->id)->update([
-                'payment_type' => $request->input('payment_type'),
-                'transaction_details' => $request->input('transaction_details'),
+                // 'payment_type' => $request->input('payment_type'),
+                // 'transaction_details' => $request->input('transaction_details'),
+                'payment_type' => $request->input('payment_type') ?? 'null',
+                'transaction_details' => $request->input('transaction_details') ?? 'null',
             ]);
     
             if ($request->hasFile('payment_proof')) {

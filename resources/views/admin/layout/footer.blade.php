@@ -23,7 +23,7 @@
 <footer class="footer">
     <div class="d-flex justify-content-center">
         <span class="text-muted text-center text-sm-left d-block d-sm-inline-block"> © 2023. All rights reserved with
-            Laghu Udyog Bharti,Nashik.</span>
+            Sumago Infotech Pvt. Ltd. Nashik.</span>
         {{-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-muted">Powered by Software
             Solutions Private Limited</span> --}}
     </div>

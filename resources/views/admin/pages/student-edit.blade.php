@@ -20,7 +20,7 @@
         <div class="content-wrapper mt-6">
             <div class="page-header">
                 <h3 class="page-title">
-                    {{-- <b>Event organized by Laghu Udyog Bharti & Government Polytechnic,
+                    {{-- <b>Event organized by Sumago Infotech Pvt. Ltd. & Government Polytechnic,
                         Nashik (DTE)</b> --}}
                 </h3>
                 <nav aria-label="breadcrumb">
@@ -109,10 +109,10 @@
                                         <select class="form-control" id="education_type" name="education_type"
                                             onchange="education_type(this.value)" disabled>
                                             <option value="">Select</option>
-                                            <option value="1"
+                                            <option value="1" disabled
                                                 @if ($project_data['education_type'] == '1') {{ 'selected' }} @endif>ITI
                                             </option>
-                                            <option value="2"
+                                            <option value="2" disabled
                                                 @if ($project_data['education_type'] == '2') {{ 'selected' }} @endif>Diploma
                                             </option>
                                             <option value="3"
@@ -315,9 +315,12 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <label for="payment_type"><b>Registration fees Rs.1000/- paid by</b>
+                                        <label for="payment_type"><b>Registration fees Rs.0/-</b>
                                         </label>&nbsp<span class="red-text">*</span>
-                                        <select class="form-control" id="payment_type" name="payment_type"
+                                        <input type="text" disabled class="other_branch_details form-control"
+                                        id="payment_type" name="payment_type" placeholder="NEFT"
+                                        value="{{ old('payment_type') }}">
+                                        {{-- <select class="form-control" id="payment_type" name="payment_type"
                                             onchange="payment_type(this.value)" disabled>
                                             <option value="">Select Payment Mode</option>
                                             <option value="neft"
@@ -327,7 +330,7 @@
                                                 @if ($project_data['payment_type'] == 'qr_code') {{ 'selected' }} @endif>QR Code
                                             </option>
 
-                                        </select>
+                                        </select> --}}
                                         @if ($errors->has('payment_type'))
                                             <span class="red-text"><?php echo $errors->first('payment_type', ':message'); ?></span>
                                         @endif
@@ -341,9 +344,11 @@
                                     <div class="form-group">
                                         <label for="transaction_details">Payment confirmation - UTR
                                             Code</label>&nbsp<span class="red-text">*</span>
-                                        <input type="text" class="transaction_details form-control"
+                                            <input type="text" disabled class="transaction_details form-control"
+                                                id="transaction_details" name="transaction_details" placeholder="HDFCR92023012200543116">
+                                        {{-- <input type="text" class="transaction_details form-control"
                                             id="transaction_details" name="transaction_details"
-                                            value="{{ $project_data['transaction_details'] }}" disabled>
+                                            value="{{ $project_data['transaction_details'] }}" disabled> --}}
                                         @if ($errors->has('transaction_details'))
                                             <span class="red-text"><?php echo $errors->first('transaction_details', ':message'); ?></span>
                                         @endif

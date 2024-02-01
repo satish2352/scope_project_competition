@@ -47,7 +47,7 @@
         <div class="content-wrapper mt-6">
             <div class="page-header">
                 <h3 class="page-title">
-                    {{-- <b>Event organized by Laghu Udyog Bharti & Government Polytechnic,
+                    {{-- <b>Event organized by Sumago Infotech Pvt. Ltd. & Government Polytechnic,
                         Nashik (DTE)</b> --}}
                 </h3>
                 <nav aria-label="breadcrumb">
@@ -174,10 +174,10 @@
                                         <select class="form-control" id="education_type" name="education_type"
                                             onchange="education_type(this.value)" disabled>
                                             <option value="">Select</option>
-                                            <option value="1"
+                                            <option value="1" disabled
                                                 @if ($project_data['education_type'] == '1') {{ 'selected' }} @endif>ITI
                                             </option>
-                                            <option value="2"
+                                            <option value="2" disabled
                                                 @if ($project_data['education_type'] == '2') {{ 'selected' }} @endif>Diploma
                                             </option>
                                             <option value="3"
