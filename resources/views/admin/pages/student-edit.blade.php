@@ -445,7 +445,7 @@
                                 <div class="p-2">
                                     <input type="checkbox" name="is_payment_done" value="1"
                                         @if ($user_data['is_payment_done']) {{ 'checked' }} @endif>
-                                    Is Payment Done
+                                    I have confirmed and team selected for next round. 
                                 </div>
                                 <div class="row d-flex justify-content-center">
                                      <div class="col-lg-2 col-md-2 col-sm-2">
