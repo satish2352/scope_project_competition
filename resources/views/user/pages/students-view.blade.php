@@ -426,7 +426,7 @@
                                     <!-- Button trigger modal -->
                                     <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
                                         data-target="#exampleModal">
-                                        View payment receipt
+                                        View Project Abstract
                                     </button>
 
                                     <!-- Modal -->
@@ -435,7 +435,7 @@
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-header img-modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLabel">Payment receipt
+                                                    <h5 class="modal-title" id="exampleModalLabel">Project Abstract
                                                     </h5>
                                                     <button type="button" class="close" data-dismiss="modal"
                                                         aria-label="Close">
