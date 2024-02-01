@@ -70,7 +70,7 @@
                                     @endif
                                 </button>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center align-items-center ">
+                            {{-- <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center align-items-center ">
                                 @if ($user_data['registration_type'] == 1 && $user_data['is_project_uploaded'] == 1 && $user_data['is_payment_done'] == 1)
                               <h1> <a href="{{ env('FILE_VIEW') }}/all_web_data/images/certificate/{{ $project_data['project_code'] }}.rar" target="_blank"
                                class="mr-4 font-weight-medium auth-form-btn d-flex align-items-center" style="font-size:18px ">
@@ -82,7 +82,7 @@
                              Click Here to Download Certificate
                                </a></h1>
                                   @endif
-                            </div>
+                            </div> --}}
                             <div class="col-lg-4 col-md-4 col-sm-4 p-3">
                                 <button type="button" class="btn float-right verify_msg">
                                     @if ($user_data['is_project_uploaded'] == 1 && $user_data['is_payment_done'] == 1)

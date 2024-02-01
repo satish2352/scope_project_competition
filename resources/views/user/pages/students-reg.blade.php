@@ -39,11 +39,11 @@
                                 <div class="row">
                                     <input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
 
-                                    <input type="hidden" class="form-control" name="registration_type" id="registration_type"
-                                                placeholder="" value="{{ $user_data->registration_type }}" >
+                                    <input type="hidden" class="form-control" name="registration_type"
+                                        id="registration_type" placeholder="" value="{{ $user_data->registration_type }}">
 
-                                  
-                                   
+
+
 
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
@@ -116,20 +116,20 @@
                                                 class="red-text">*</span>
                                             <select class="form-control" id="education_type" name="education_type">
                                                 <option value="">Select</option>
-
-
-                                                <option value="1" disabled
-                                                    @if (old('education_type') == '1') {{ 'selected' }} @endif>
-                                                    ITI
+                                                <option value="3"
+                                                    @if (old('education_type') == '3') {{ 'selected' }} @endif>
+                                                    Degree
                                                 </option>
                                                 <option value="2" disabled
                                                     @if (old('education_type') == '2') {{ 'selected' }} @endif>
                                                     Diploma
                                                 </option>
-                                                <option value="3"
-                                                    @if (old('education_type') == '3') {{ 'selected' }} @endif>
-                                                    Degree
+                                                <option value="1" disabled
+                                                    @if (old('education_type') == '1') {{ 'selected' }} @endif>
+                                                    ITI
                                                 </option>
+
+
                                                 {{-- <option value="3"
                                                     @if (old('education_type') == '3') {{ 'selected' }} @endif>Other
                                             </option>
@@ -317,8 +317,8 @@
                                             <label for="payment_type"><b>Registration fees Rs.0/-</b>
                                             </label>&nbsp<span class="red-text">*</span>
                                             <input type="text" disabled class="other_branch_details form-control"
-                                            id="payment_type" name="payment_type" placeholder="NEFT"
-                                            value="{{ old('payment_type') }}">
+                                                id="payment_type" name="payment_type" placeholder="NEFT"
+                                                value="{{ old('payment_type') }}">
                                             {{-- <select class="form-control" id="payment_type" name="payment_type"
                                                 onchange="payment_type(this.value)">
                                                 <option value="">Select Payment Mode</option>
@@ -341,10 +341,9 @@
                                         <div class="form-group">
                                             <label for="transaction_details">Payment confirmation - UTR
                                                 Code</label>&nbsp<span class="red-text">*</span>
-                                                <input type="text" disabled class="transaction_details form-control"
-                                                id="transaction_details" name="transaction_details" placeholder="0000000000000"
-                                                {{-- value="{{ $project_data['transaction_details'] }}" --}}
-                                                >
+                                            <input type="text" disabled class="transaction_details form-control"
+                                                id="transaction_details" name="transaction_details"
+                                                placeholder="0000000000000" {{-- value="{{ $project_data['transaction_details'] }}" --}}>
                                             @if ($errors->has('transaction_details'))
                                                 <span class="red-text"><?php echo $errors->first('transaction_details', ':message'); ?></span>
                                             @endif
@@ -401,7 +400,8 @@
                                                 format with 5 MB*</span>
                                             <br>
                                             <input type="file" name="project_presentation" id="project_presentation"
-       accept=".pdf, .ppt, .pptx, .doc, .docx" value="{{ old('project_presentation') }}"><br>
+                                                accept=".pdf, .ppt, .pptx, .doc, .docx"
+                                                value="{{ old('project_presentation') }}"><br>
 
                                             @if ($errors->has('project_presentation'))
                                                 <span class="red-text"><?php echo $errors->first('project_presentation', ':message'); ?></span>
