@@ -43,8 +43,8 @@
                                                     <th>Academic Year</th>
                                                     <th>Institite</th>
                                                     <th>Branch</th>
-                                                    {{-- <th>Mode Of Payment</th>
-                                                    <th>UTR Code</th> --}}
+                                                    <th>Mode Of Payment</th>
+                                                    <th>UTR Code</th>
                                                     {{-- <th>Action</th> --}}
                                                 </tr>
                                             </thead>
@@ -67,8 +67,8 @@
                                                         <td>{{ $academicYearNames[$item->academic_year] }}</td>
                                                         <td>{{ $item->institute_name }}</td>
                                                         <td>{{ $branchNames[$item->branch_details] }}</td>
-                                                        {{-- <td>{{ $paymentModeNames[$item->payment_type] }}</td>
-                                                        <td>{{ $item->transaction_details }}</td> --}}
+                                                        <td>{{ $paymentModeNames[$item->payment_type] }}</td>
+                                                        <td>{{ $item->transaction_details }}</td>
                                                         
                                                         
                                                         {{-- <td>

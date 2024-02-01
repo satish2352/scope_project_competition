@@ -20,7 +20,7 @@
         <div class="content-wrapper mt-6">
             <div class="page-header">
                 <h3 class="page-title">
-                    {{-- <b>Event organized by Sumago Infotech Pvt. Ltd. & Government Polytechnic,
+                    {{-- <b>Event organized by Laghu Udyog Bharti & Government Polytechnic,
                         Nashik (DTE)</b> --}}
                 </h3>
                 <nav aria-label="breadcrumb">

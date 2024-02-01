@@ -19,7 +19,7 @@
         <div class="content-wrapper mt-6">
             <div class="page-header">
                 <h3 class="page-title">
-                    {{-- <b>Event organized by Sumago Infotech Pvt. Ltd. & Government Polytechnic,
+                    {{-- <b>Event organized by Laghu Udyog Bharti & Government Polytechnic,
                         Nashik (DTE)</b> --}}
                 </h3>
                 <nav aria-label="breadcrumb">
@@ -118,11 +118,11 @@
                                                 <option value="">Select</option>
 
 
-                                                <option value="1" disabled
+                                                <option value="1"
                                                     @if (old('education_type') == '1') {{ 'selected' }} @endif>
                                                     ITI
                                                 </option>
-                                                <option value="2" disabled
+                                                <option value="2"
                                                     @if (old('education_type') == '2') {{ 'selected' }} @endif>
                                                     Diploma
                                                 </option>
@@ -314,14 +314,10 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <label for="payment_type"><b>Registration fees Rs.0/-</b>
+                                            <label for="payment_type"><b>Registration fees Rs.1000/- paid by</b>
                                             </label>&nbsp<span class="red-text">*</span>
-
-                                            <input type="text" disabled class="other_branch_details form-control"
-                                            id="payment_type" name="payment_type" placeholder="NEFT"
-                                            value="{{ old('payment_type') }}">
                                             
-                                            {{-- <select class="form-control" id="payment_type" name="payment_type"
+                                            <select class="form-control" id="payment_type" name="payment_type"
                                                 onchange="payment_type(this.value)">
                                                 <option value="">Select Payment Mode</option>
                                                 <option value="neft"
@@ -331,7 +327,7 @@
                                                     @if (old('payment_type') == 'qr_code') {{ 'selected' }} @endif>QR Code
                                                 </option>
 
-                                            </select> --}}
+                                            </select>
                                             @if ($errors->has('payment_type'))
                                                 <span class="red-text"><?php echo $errors->first('payment_type', ':message'); ?></span>
                                             @endif
@@ -343,8 +339,8 @@
                                         <div class="form-group">
                                             <label for="transaction_details">Payment confirmation - UTR
                                                 Code</label>&nbsp<span class="red-text">*</span>
-                                            <input type="text" disabled class="transaction_details form-control"
-                                                id="transaction_details" name="transaction_details" placeholder="HDFCR92023012200543116"
+                                            <input type="text" class="transaction_details form-control"
+                                                id="transaction_details" name="transaction_details"
                                                 value="{{ old('transaction_details') }}">
                                             @if ($errors->has('transaction_details'))
                                                 <span class="red-text"><?php echo $errors->first('transaction_details', ':message'); ?></span>
@@ -352,13 +348,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{-- <div class="row">
+                                <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
                                             <p class="mt-3">
                                                 <label for="bankdetails" class="bank_details">
                                                     <b>Bank details:</b><br />
-                                                    A/c Name: Sumago Infotech Pvt. Ltd. <br />
+                                                    A/c Name: Laghu Udyog Bharti <br />
                                                     Bank: TJSB Bank <br />
                                                     Branch: Gangapur Rd. <br />
                                                     A/c No.: 021110100000661 <br />
@@ -377,12 +373,12 @@
                                             </p>
                                         </div>
                                     </div>
-                                </div> --}}
+                                </div>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <label for="payment_proof">Project Abstract</label>&nbsp<span
-                                                class="red-text"><br>Upload Project Abstract in
+                                            <label for="payment_proof">Payment Acknowledgement / Receipt</label>&nbsp<span
+                                                class="red-text"><br>Upload Payment proof in
                                                 jpeg,png,jpg format with size 1 MB*</span><br>
                                             <input type="file" name="payment_proof" id="payment_proof"
                                                 accept="image/*" value="{{ old('payment_proof') }}"><br>

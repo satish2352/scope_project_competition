@@ -48,7 +48,6 @@ class StudentController extends Controller
         'users.registration_type')
         ->where('project_details.is_active', true)
         ->where('users.is_payment_done', true)
-        ->orderBy('project_details.id', 'desc')
         ->get();
         // dd($project_data);
 
@@ -159,7 +158,6 @@ class StudentController extends Controller
               'users.registration_type as user_registration_type')
     ->where('project_details.is_active', true)
     ->where('users.is_payment_done', true)
-    ->orderBy('project_details.id', 'desc')
     ->get();
 
 // dd($project_data);
