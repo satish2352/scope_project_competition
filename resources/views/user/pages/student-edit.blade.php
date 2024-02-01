@@ -351,7 +351,8 @@
                                             </label>&nbsp<span class="red-text">*</span>
                                             <input type="text" disabled class="other_branch_details form-control"
                                             id="payment_type" name="payment_type" placeholder="NEFT"
-                                            value="{{ old('payment_type') }}">
+                                            {{-- value="{{ old('payment_type') }}" --}}
+                                            >
                                             {{-- <select class="form-control" id="payment_type" name="payment_type"
                                                 onchange="payment_type(this.value)">
                                                 <option value="">Select Payment Mode</option>
