@@ -2,8 +2,8 @@
 @section('content')
     <style>
         .marqueeMain {
-            background-color: #ba1e27;
-            color: #fff !important;
+            background-color: #d7d6d6;
+            color: #000000 !important;
             font-size: 20px;
             letter-spacing: 0px;
             font-weight: 600;
@@ -146,12 +146,11 @@
             </a>
         </div>
     </div>
-    <section id="video-sec">
+    {{-- <section id="video-sec">
         <div class="container">
             <div class="row text-center">
                 <h1>Celebrating Our Success Story</h1>
                 <hr>
-                {{-- <h5>Documentary "Udyamev Jayate" Celebrating 25 yearsof Laghu Udyog Bharti- Nashik Branch</h5> --}}
                 <div class="text-left">
                     <div class="col-md-6 clearfix top-off video-container">
                         <img src="{{ asset('website/assets/images/Events/videoimg.png') }}" class="img-fluid" onclick="openVideo()">
@@ -161,24 +160,9 @@
                         <iframe id="videoFrame" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                {{-- <div class="text-left">
-                    <div class="col-md-6 clearfix top-off">
-                        <a href="https://www.youtube.com/watch?v=ilz3ti1D0LY"> <video width="400" controls>
-
-                                <source src="https://www.youtube.com/watch?v=ilz3ti1D0LY" type="video/mp4">
-
-                            </video></a>
-
-
-
-                    </div> --}}
                     <div class="col-md-6 clearfix top-off">
                         <div class="media">
-                            {{-- <div class="media-image">
-                                <img src="images/g1.png" class="attachment-full size-full" alt="g1">
-                            </div> --}}
                             <div class="media-text">
-                                {{-- <h5>BECOME A VOLUNTEER</h5> --}}
                                 <p style="text-align: justify">Sumago Infotech aspire to be the global sourcing choice of the world market and revolutionizes the way
                                     service processes function. To reach out to the common people across the globe and making Information
                                     Technology a tool for the “MASS” along with the tool for the “CLASS”. Creating innovative IT solutions
@@ -188,34 +172,24 @@
                             </div>
                         </div>
                         <div class="media">
-                            {{-- <div class="media-image">
-                                <img src="images/g2.png" class="attachment-full size-full" alt="g1">
-                            </div> --}}
+                         
                             <div class="media-text">
-                                {{-- <h5>MAKE A GIFT</h5> --}}
+                              
                                 <p style="text-align: justify">The company specializes in offering
                                     Web Designing, Web Application Development, Mobile Application Development, Software Development,
                                     Digital Marketing, Software Testing, Quality Assurance services, and many more.</p>
                             </div>
                         </div>
-                        {{-- <div class="media">
-                            <div class="media-image">
-                                <img src="images/g1.png" class="attachment-full size-full" alt="g1">
-                            </div>
-                            <div class="media-text">
-                                <h5>GIVE A SCHOLASHIP</h5>
-                                <p>Give us a brief description of the service that you are promoting.</p>
-                            </div>
-                        </div> --}}
+                      
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section id="about-sec">
         <div class="container">
             <div class="row">
-                <h1 class="text-center">Our goal is to offer Top-Notch IT Education
+                <h1 class="text-center">Our Goal is to offer Top-Notch IT Education
                 </h1>
                 <hr>
                 <div class="row " style="display: flex; justify-content: center;">

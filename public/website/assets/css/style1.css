@@ -93,7 +93,7 @@ p{
 
 .topbar{
     padding:5px 0;
-    background-color: #ba1e27;
+    background-color: #000000;
 	color:#fff;
 }
 .topbar .bar-phone{
@@ -149,9 +149,9 @@ p{
     color: #595aa7 ;
 }
 .sponsor-button {
-    border: 2px solid #ba1e27;
+    border: 2px solid #000000;
     border-radius: 3px;
-    color: #ba1e27;
+    color: #000000;
     display: inline-block;
     margin: 20px 0 0 0;
     padding: 5px 10px;
@@ -175,7 +175,7 @@ p{
 	border:2px solid #f26166;
 }
 .sponsor-button:hover {
-    background-color: #ba1e27;
+    background-color: #000000;
     color: #fff;
 }
 .navbar > .container .navbar-brand {
@@ -198,7 +198,7 @@ p{
 	padding:15% 0 0 0;
 }
 #first-slider .slide1 h2 span, #first-slider .slide2 h2 span, #first-slider .slide3 h2 span, #first-slider .slide4 h2 span{
-	background: #ba1e27;
+	background: #000000;
 	padding: 0 20px;
 }
 #first-slider .slide1 h3, #first-slider .slide2 h3, #first-slider .slide3 h3, #first-slider .slide4 h3{
@@ -410,15 +410,15 @@ p{
 	line-height:36px;
 }
 #about-sec hr{
-	width:150px; border:2px solid #ba1e27;
+	width:150px; border:2px solid #000000;
 }
 #about-sec p{
 	margin:15px 0 0 10px;
 }
 #about-sec .btn1 {
-    border: 2px solid #ba1e27;
+    border: 2px solid #000000;
     border-radius: 3px;
-    color: #ba1e27;
+    color: #000000;
     display: inline-block;
     margin: 30px 0 0 0;
     padding: 9px 20px;
@@ -441,7 +441,7 @@ p{
 	text-transform:uppercase;
 }
 #about-sec .btn2:hover {
-    background-color: #ba1e27;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -518,7 +518,7 @@ p{
 	text-transform:uppercase;
 }
 #video-sec hr{
-	width:150px; border:2px solid #ba1e27;
+	width:150px; border:2px solid #000000;
 }
 #video-sec p{
 	margin:0 0 0 0;
@@ -613,15 +613,15 @@ video {
 	color: #f26166;
 }
 #gallery-sec hr{
-	width:150px; border:2px solid #ba1e27;
+	width:150px; border:2px solid #000000;
 }
 #gallery-sec p{
 	margin:15px 0 0 0;
 }
 #gallery-sec .btn1 {
-    border: 2px solid #ba1e27;
+    border: 2px solid #000000;
     border-radius: 3px;
-    color: #ba1e27;
+    color: #000000;
     display: inline-block;
     margin: 30px 0 0 0;
     padding: 9px 20px;
@@ -644,7 +644,7 @@ video {
 	text-transform:uppercase;
 }
 #gallery-sec .btn2:hover {
-    background-color: #ba1e27;
+    background-color: #000000;
     color: #fff;
 }
 #gallery-sec ul{
@@ -833,7 +833,7 @@ video {
 }
 #team hr {
     width: 150px;
-    border: 2px solid #ba1e27;
+    border: 2px solid #000000;
 }
 #team .member {
     margin-top: 30px;
@@ -947,7 +947,7 @@ video {
 }
 .act-box .price {
     margin: 20px 0px 0px;
-    color: #ba1e27;
+    color: #000000;
     float: left;
 	font-weight:600;
 	font-size: 18px;
@@ -957,9 +957,9 @@ video {
     margin-left: 10px;
 }
 .act-box .btn1 {
-    border: 2px solid #ba1e27;
+    border: 2px solid #000000;
     border-radius: 3px;
-    color: #ba1e27;
+    color: #000000;
     display: inline-block;
     padding: 9px 20px;
     font-weight: 600;
@@ -997,7 +997,7 @@ video {
 }
 #pro-sec .post-content hr {
     width: 100px;
-    border: 2px solid #ba1e27;
+    border: 2px solid #000000;
     margin: 10px auto;
 }
 #pro-sec p {
@@ -1014,7 +1014,7 @@ video {
 	text-transform:uppercase;
 }
 #pro-sec a:hover {
-    background-color: #ba1e27;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -1090,7 +1090,7 @@ video {
 	margin-top:5px; padding-top:5px; text-align:left;
 }
 #owl-demo .btn1 {
-    background: #ba1e27;
+    background: #000000;
     border-radius: 3px;
     color: #fff;
     display: block;

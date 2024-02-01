@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-md-4" style=" margin-top:20px;">
-                    <div class="con-box" style="background:#ba1e27;">
+                    <div class="con-box" style="background:#000000;">
                         <div class="fancy-box-icon">
                             <i class="fa fa-map-marker"></i>
                         </div>
