@@ -8,7 +8,7 @@
     <title>
         {{ env('APP_NAME') }}
     </title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('website_files/images/home/DM.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('website/assets/images/logo.jpg') }}">
     <!-- css global-->
     <link rel="stylesheet" href="{{ asset('assets/vendors/iconfonts/font-awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendors/css/vendor.bundle.base.css') }}">

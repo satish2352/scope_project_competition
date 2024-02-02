@@ -5,10 +5,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="./public/website/assets/images/logo.jpg" >
     <title>
         {{ env('APP_NAME') }}
     </title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('website_files/images/home/DM.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('website/assets/images/logo.jpg') }}">
     <!-- global css -->
     <link rel="stylesheet" href="{{ asset('assets/vendors/iconfonts/font-awesome/css/all.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/vendors/css/vendor.bundle.base.css') }}">
