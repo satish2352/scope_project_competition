@@ -81,7 +81,7 @@
 
             <marquee id="myMarquee" behavior="scroll" direction="left" onmouseover="toggleMarquee()"
                 onmouseout="toggleMarquee()">
-                <p class="p-1">Registration for the Project Competition for Colleges !</p>
+                <p class="p-1">Registration for the College Project Competition..!!</p>
             </marquee>
         </div>
         <div id="carousel-example-generic" class="carousel slide carousel-fade">
