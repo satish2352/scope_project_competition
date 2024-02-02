@@ -130,7 +130,7 @@
                     buttons: [{
                         extend: 'excel',
                         className: 'btn btn-info text-light', // Add Bootstrap button classes
-                        title: 'SCOPE_Project' + getCurrentDateTime() // Set the Excel file name dynamically
+                        title: 'All_Participants' + getCurrentDateTime() // Set the Excel file name dynamically
                     }, ]
                 });
             });
