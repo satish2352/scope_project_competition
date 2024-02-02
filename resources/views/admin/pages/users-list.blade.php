@@ -109,7 +109,7 @@
                     buttons: [{
                         extend: 'excel',
                         className: 'btn btn-info text-light', // Add Bootstrap button classes
-                        title: 'ETS2023_CLG' + getCurrentDateTime() // Set the Excel file name dynamically
+                        title: 'SCOPE_Project' + getCurrentDateTime() // Set the Excel file name dynamically
                     }, ]
                 });
             });
