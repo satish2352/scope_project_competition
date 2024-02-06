@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="attr-nav">
-                <a class="sponsor-button" href="{{ url('registration') }}">Registration</a>
+                {{-- <a class="sponsor-button" href="{{ url('registration') }}">Registration</a> --}}
                  <a class="donation" href="{{ url('login') }}">Login</a>
             </div>
             <div class="navbar-header">
