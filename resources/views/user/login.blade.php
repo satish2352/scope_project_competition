@@ -127,10 +127,10 @@
                                     </div> --}}
                                     <div class="border-line"></div>
                                 </div>
-                                <div class="text-center mt-3 font-weight-light">
+                                {{-- <div class="text-center mt-3 font-weight-light">
                                     <a href="{{ url('registration') }}" class="color-org"> Don't have an account? Sign
                                         Up !</a>
-                                </div>
+                                </div> --}}
                             </form>
                             <div>
                                 <p class="font-weight-medium text-center flex-grow align-self-end"
