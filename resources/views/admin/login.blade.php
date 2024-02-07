@@ -139,7 +139,7 @@
                                 <p class="font-weight-medium text-center flex-grow align-self-end"
                                     style="margin-top: 40px;">
                                     ©
-                                    {{ date('Y') }}.
+                                    2024.
                                     All rights reserved with Sumago Infotech Pvt. Ltd. ,Nashik.</p>
                             </div>
                             <!--  Login Form -->
