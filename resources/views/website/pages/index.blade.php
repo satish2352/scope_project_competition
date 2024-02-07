@@ -77,13 +77,13 @@
     </script>
 
     <div id="first-slider">
-        <div class="marqueeMain d-flex align-items-center">
+        {{-- <div class="marqueeMain d-flex align-items-center">
 
             <marquee id="myMarquee" behavior="scroll" direction="left" onmouseover="toggleMarquee()"
                 onmouseout="toggleMarquee()">
                 <p class="p-1">Registration for the College Project Competition..!!</p>
             </marquee>
-        </div>
+        </div> --}}
         <div id="carousel-example-generic" class="carousel slide carousel-fade">
             <!-- Indicators -->
             <ol class="carousel-indicators">
