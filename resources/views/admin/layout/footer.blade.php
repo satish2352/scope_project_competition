@@ -22,7 +22,7 @@
 <!-- content-wrapper ends -->
 <footer class="footer">
     <div class="d-flex justify-content-center">
-        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block"> © 2023. All rights reserved with
+        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block"> © 2024. All rights reserved with
             Sumago Infotech Pvt. Ltd. ,Nashik.</span>
         {{-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center text-muted">Powered by Software
             Solutions Private Limited</span> --}}
